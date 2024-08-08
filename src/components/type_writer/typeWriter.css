@@ -1,0 +1,17 @@
+.typeWriter_container{
+  display: inline-block;
+}
+.typeWriter_text{
+  /* font-size: 3rem; */
+  letter-spacing: 2px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 1s steps(22)
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+} 
